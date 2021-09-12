@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="5" time="27.708">
+ <testsuite name="Handling Frames Scenario" timestamp="2021-09-12T16:30:11" hostname="localhost" time="27.708" errors="0" tests="5" skipped="0" disabled="0" failures="0">
+  <testcase classname="Handling Frames Scenario" name="Handling Frames in Protractor " time="11.027" />
+  <testcase classname="Handling Frames Scenario" name="Handling Frames in Protractor " time="4.814" />
+  <testcase classname="Handling Frames Scenario" name="Handling Frames in Protractor " time="3.972" />
+  <testcase classname="Handling Frames Scenario" name="Handling Frames in Protractor " time="3.97" />
+  <testcase classname="Handling Frames Scenario" name="Handling Frames in Protractor " time="3.922" />
+ </testsuite>
+</testsuites>

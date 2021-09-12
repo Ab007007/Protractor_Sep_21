@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631419963098' stop='1631419989150'>
+    <name>My first protractor Scenario</name>
+    <title>My first protractor Scenario</title>
+    <test-cases>
+        <test-case start='1631419963099' status='passed' stop='1631419989149'>
+            <name>Non Angular Application  </name>
+            <title>Non Angular Application  </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

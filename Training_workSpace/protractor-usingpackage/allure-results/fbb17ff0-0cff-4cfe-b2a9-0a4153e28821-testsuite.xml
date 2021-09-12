@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631444411719' stop='1631444439427'>
+    <name>Handling Frames Scenario</name>
+    <title>Handling Frames Scenario</title>
+    <test-cases>
+        <test-case start='1631444411719' status='passed' stop='1631444422747'>
+            <name>Handling Frames in Protractor </name>
+            <title>Handling Frames in Protractor </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631444422747' status='passed' stop='1631444427561'>
+            <name>Handling Frames in Protractor </name>
+            <title>Handling Frames in Protractor </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631444427561' status='passed' stop='1631444431533'>
+            <name>Handling Frames in Protractor </name>
+            <title>Handling Frames in Protractor </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631444431533' status='passed' stop='1631444435503'>
+            <name>Handling Frames in Protractor </name>
+            <title>Handling Frames in Protractor </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631444435504' status='passed' stop='1631444439426'>
+            <name>Handling Frames in Protractor </name>
+            <title>Handling Frames in Protractor </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

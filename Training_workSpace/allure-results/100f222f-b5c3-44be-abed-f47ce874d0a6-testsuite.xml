@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631422773193' stop='1631422825203'>
+    <name>My first protractor Scenario</name>
+    <title>My first protractor Scenario</title>
+    <test-cases>
+        <test-case start='1631422773194' status='passed' stop='1631422825202'>
+            <name>Actions - Drag and Drop </name>
+            <title>Actions - Drag and Drop </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

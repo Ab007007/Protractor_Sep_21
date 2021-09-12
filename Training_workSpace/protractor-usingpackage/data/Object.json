@@ -1,0 +1,23 @@
+{
+    "url" : "https://formy-project.herokuapp.com/form",
+
+    "locators" : {
+        "formPage" : {
+            "firstNameByID" : "first-name",
+            "lastNameByID" : "last-name",
+            "JobTitleByID"  : "job-title",
+            "submitByLinkText" : "Submit"
+        },
+        "formSuccessPage" : {
+            "successMsgByXpath" : "//div[@class='alert alert-success']"
+        }     
+
+    },
+
+    "formUserDetails" : {
+        "firstName" : "Aravinda",
+        "lastName"  : "HB",
+        "JobTitle"  : "Trainer"
+
+    }
+}

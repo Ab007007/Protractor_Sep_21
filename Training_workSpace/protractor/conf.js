@@ -18,8 +18,13 @@ exports.config = {
   
     // Spec patterns are relative to the current working directory when
     // protractor is called.
-    specs: ['development.js'],
+    specs: ['test/Calculator.js'],
   
+    suites: {
+      smoke : ['ActionsDemo.js','BrowserOperations.js'],
+      regression : ['test/*.js'],
+      adhoc : ['DataProviderDemo.js','HandlingAlerts.js']
+    },
     // Options to be passed to Jasmine.
     jasmineNodeOpts: {
       defaultTimeoutInterval: 30000
@@ -39,6 +44,28 @@ exports.config = {
           savePath: './',
           filePrefix: 'xmlresults'
       }));
+
+        var fs = require('fs-extra');
+ 
+    fs.emptyDir('screenshots-html/', function (err) {
+            console.log("Folder is empty "+ err);
+        });
+ 
+    jasmine.getEnv().addReporter({
+        specDone: function(result) {
+            if (result.status == 'failed') {
+                browser.getCapabilities().then(function (caps) {
+                    var browserName = caps.get('browserName');
+ 
+                    browser.takeScreenshot().then(function (png) {
+                        var stream = fs.createWriteStream('screenshots-html/' + browserName + '-' + result.fullName+ '.png');
+                        stream.write(new Buffer(png, 'base64'));
+                        stream.end();
+                    });
+                });
+            }
+        }
+    });
       jasmine.getEnv().addReporter(reporter);
 
       var AllureReporter = require('jasmine-allure-reporter');
@@ -80,28 +107,7 @@ exports.config = {
         };
         new HTMLReport().from('xmlresults.xml', testConfig);
     });
-
-    var fs = require('fs-extra');
  
-// fs.emptyDir('screenshots-html/', function (err) {
-//         console.log("Folder is empty "+ err);
-//     });
- 
-    jasmine.getEnv().addReporter({
-        specDone: function(result) {
-            if (result.status == 'failed') {
-                browser.getCapabilities().then(function (caps) {
-                    var browserName = caps.get('browserName');
- 
-                    browser.takeScreenshot().then(function (png) {
-                        var stream = fs.createWriteStream('screenshots-html/' + browserName + '-' + result.fullName+ '.png');
-                        stream.write(new Buffer(png, 'base64'));
-                        stream.end();
-                    });
-                });
-            }
-        }
-    });
   }
-  };
+};
   

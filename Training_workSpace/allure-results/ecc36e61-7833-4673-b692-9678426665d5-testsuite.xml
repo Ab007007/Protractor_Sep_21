@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631430870610' stop='1631430905436'>
+    <name>Handling Frames Scenario</name>
+    <title>Handling Frames Scenario</title>
+    <test-cases>
+        <test-case start='1631430870611' status='passed' stop='1631430889069'>
+            <name>Handling Frames in Protractor </name>
+            <title>Handling Frames in Protractor </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631430889069' status='passed' stop='1631430905432'>
+            <name>Handling Frames in Protractor </name>
+            <title>Handling Frames in Protractor </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

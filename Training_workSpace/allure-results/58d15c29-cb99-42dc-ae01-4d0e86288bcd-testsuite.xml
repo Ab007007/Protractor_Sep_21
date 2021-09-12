@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631426385499' stop='1631426402104'>
+    <name>My first protractor Scenario</name>
+    <title>My first protractor Scenario</title>
+    <test-cases>
+        <test-case start='1631426385499' status='passed' stop='1631426389503'>
+            <name>Handling Multi Browsers in Protractor  </name>
+            <title>Handling Multi Browsers in Protractor  </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631426389503' status='passed' stop='1631426402103'>
+            <name>Handling Alerts in Protractor </name>
+            <title>Handling Alerts in Protractor </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

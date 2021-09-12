@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631441446121' stop='1631441510935'>
+    <name>Addition of two numbers using POM </name>
+    <title>Addition of two numbers using POM </title>
+    <test-cases>
+        <test-case start='1631441446121' status='passed' stop='1631441455199'>
+            <name>Add and Validate</name>
+            <title>Add and Validate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631441455199' status='passed' stop='1631441477244'>
+            <name>Add and Validate</name>
+            <title>Add and Validate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631441477244' status='passed' stop='1631441482811'>
+            <name>Add and Validate</name>
+            <title>Add and Validate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631441482811' status='failed' stop='1631441488431'>
+            <name>Add and Validate</name>
+            <title>Add and Validate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected 23 to equal 31.</message>
+                <stack-trace>Error: Failed expectation
+                    at D:\Synechron_Protractor_04_09\Training_workSpace\protractor\page\CalculatorHomePage.js:30:44
+                    at C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\built\element.js:804:32
+                    at ManagedPromise.invokeCallback_ (C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1631441488431' status='passed' stop='1631441494221'>
+            <name>Substract and Validate</name>
+            <title>Substract and Validate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631441494222' status='passed' stop='1631441499729'>
+            <name>Substract and Validate</name>
+            <title>Substract and Validate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631441499729' status='passed' stop='1631441505312'>
+            <name>Substract and Validate</name>
+            <title>Substract and Validate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1631441505312' status='failed' stop='1631441510934'>
+            <name>Substract and Validate</name>
+            <title>Substract and Validate</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected -1 to equal 1.</message>
+                <stack-trace>Error: Failed expectation
+                    at D:\Synechron_Protractor_04_09\Training_workSpace\protractor\page\CalculatorHomePage.js:30:44
+                    at C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\built\element.js:804:32
+                    at ManagedPromise.invokeCallback_ (C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\Aravind\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
